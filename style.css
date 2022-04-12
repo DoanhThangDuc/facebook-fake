@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.master {
+    display: flex;
+    justify-content: center;
+}
+body {
+    font-family: inherit;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 980px;
+}
+
+.box-logo {
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    padding-top: 200px;
+    
+}
+.box-logo h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+.box-logo .logo {
+    height: 106px;
+    margin: -28px;
+}
+.main {
+    border: 2px solid rgba(255, 255, 255, 1);
+    width: 400px;
+    height: 400px;
+    margin-top: 130px;
+    font-family: inherit;
+}
+.main-box {
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 0 5px 5px rgb(211, 207, 207);
+    height: 90%;
+}
+.input-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+
+}
+.input-box input {
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 15px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 1);
+}
+.input-box input:hover {
+    border-color: #1877f2;
+}
+.Log-In {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.Log-In #submit {
+    width: 95%;
+    height: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    font-size: 18px;
+    padding-left: 15px;
+    border-style: groove;
+    border-radius: 10px;
+    background-color: #1877f2;
+    border-color: #1877f2;
+   
+}
+.forgotten-password a {
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    text-decoration: none;
+    color: rgba(24, 119, 242, 1);
+}
+.line  {
+    width: 400px;
+    height: 5px;
+    border-bottom: 1px solid rgb(100, 92, 92);
+    border-radius: 0 0 0 2px rgb(173, 168, 168) ;
+    position: absolute;
+}
+.Create-new-account {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.Create-new-account input {
+    border-style: groove;
+    width: 200px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    border-color: rgba(66, 183, 42, 1);
+    background-color: rgba(66, 183, 42, 1);
+}
+.Create-new-account input:hover {
+    border-color: rgb(44, 129, 27);
+}
+.Create {
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.Create a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
